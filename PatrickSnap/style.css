@@ -1,0 +1,158 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(images/background.jpg);
+	background-size: 100% auto;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+#container{
+	width: 900px;
+	height: 2410px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(213, 114, 160, 1);
+}
+#image{
+	width: 100%;
+	height: 470px;
+}
+.rnidg_img{
+	width: 100%;
+	height: 100%;
+}
+#left_sec{
+	width: 500px;
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+p{
+	margin: 0;
+	color: #4FFF4E;
+}
+.LhiKah_image{
+	width: 100%;
+}
+h1{
+	color: #4FFF4E;
+}
+#button_container{
+	width: 100%;
+	height: 35px;
+}
+.button_buy{
+	width: 80px;
+	height: 35px;
+	color: #FFFFFF;
+	border: 1px solid #E54747;
+	background-color: #FA5C5C;
+	font-size: 15px;
+	font-weight: bold;
+	cursor: pointer;
+	float: left;
+}
+h2{
+	margin: 0;
+	margin-top: 5px;
+	color: #4FFF4E;
+	float: left;
+}
+h3{
+	margin: 0;
+	margin-top: 8px;
+	margin-left: 4px;
+	color: #4FFF4E;
+	opacity: .5;
+	float: left;
+}
+#windows1_div{
+	width: 100%;
+	height: 20px;
+}
+#windows_logo{
+	margin: 0;
+	margin-top: 1px;
+	margin-left: 9px;
+	color: #4FFF4E;
+	opacity: .5;
+	float: left;
+}
+/*-----https://css.gg/windows (@import url('https://css.gg/windows.css'))-----*/
+.gg-windows{
+	margin-left: 5px;
+    transform: scale(var(--ggs,1));
+    float: right;
+}
+.gg-windows, .gg-windows::before{
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 17px;
+    height: 15px;
+}
+.gg-windows::before{
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 6px;
+    background: currentColor;
+    box-shadow: 8px 0 0,8px 7px 0,0 7px 0;
+    transform: perspective(30px) rotateY(-30deg);
+}
+#windows2_div{
+	width: 100%;
+	height: 20px;
+}
+#comments_div{
+	width: 100%;
+}
+.input_text{
+	width: 95%;
+	height: 35px;
+	border-radius: 2px;
+	color: #4FFF4E;
+	border: 1px solid #4FFF4E;
+	background-color: transparent;
+}
+.input_submit{
+	width: 120px;
+	height: 30px;
+	border: 1px solid #E54747;
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+	cursor: pointer;
+	background-color: #FF2449;
+}
+#comments_div2{
+	width: 100%;
+	height: 100%;
+}
+.frog_img{
+	width: 25px;
+	height: 25px;
+}
+#right_sec{
+	width: 335px;
+	margin-right: 20px;
+	margin-top: 20px;
+	float: right;
+}
+@media screen and (max-width: 400px){
+	#container{
+		width: 100%;
+		height: 3910px;
+	}
+	#left_sec{
+		width: 100%;
+		margin-left: 0;
+		margin-top: 0;
+	}
+	#right_sec{
+		width: 100%;
+	}
+	.LhiKah_image{
+		width: 100%;
+	}
+}
